@@ -1,0 +1,32 @@
+/* Estilos para la cuadrícula de imágenes */
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.image-card {
+  text-align: center;
+}
+
+/* Establece el tamaño deseado para todas las imágenes */
+img {
+  width: 200px;
+  height: 200px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin: 10px auto 0; /* Centra el botón horizontalmente */
+}
